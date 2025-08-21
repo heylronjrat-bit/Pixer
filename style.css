@@ -224,7 +224,7 @@ select {
     border-radius: 5px;
     background-color: rgb(232, 232, 232);
     appearance: none;
-    background-image: url('./public/triangular-black-arrow-pointing-down.svg');
+    background-image: url('./triangular-black-arrow-pointing-down.svg');
     background-repeat: no-repeat;
     background-position: right 10px center;
     background-size: 10px;
@@ -295,4 +295,5 @@ footer {
     width: 1%;
     justify-content: space-around;
     gap: 16px;
+
 }
