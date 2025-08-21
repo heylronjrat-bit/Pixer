@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    justify-content: space-around;
+    box-shadow: 0px 15px 15px lightgray;
+}
+
+.menu {
+    display: flex;
+    list-style-type: none; 
+    gap: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.menu>li {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+}
+
+.menu>li>button {
+    border-radius: 5px;
+    padding: 8px 16px;
+    background-color: #00BAFC;
+    border: none;
+    color: white;
+}
+
+.section1 {
+    display: flex;
+    width: 100%;
+    height: 418px;
+    justify-content: space-around;
+}
+
+.section1_item1 {
+    width: 30%;
+    position: relative;
+    top: 100px;
+}
+
+.section1_item1>h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 130%;
+}
+
+.section1_item1>button {   
+    border-radius: 5px;
+    padding: 16px 16px;
+    background-color: #00BAFC;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
+
+.section1_item1>button:hover {
+    background-color: #009fd9;
+    cursor: pointer;
+}
+
+.section1_item2 {
+    top: 100px;
+    position: relative;
+    height: 260px;
+}
+
+.youtube {
+    position: absolute;
+    top: 90px;
+    left: 160px;
+}
+
+.xizmatlar {
+width: 100%;
+height: 880px;
+}
+
+.xizmat-logo {
+    height:700px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.xizmat-logo>div:hover {
+    transform: scale(1.5);
+    z-index: 10;
+}
+
+.xizmat-logo>div {
+    position: relative;
+    top: 50px;
+    width: 320px;
+    height: 300px;
+    padding: 24px;
+    box-shadow: 0px 10px 10px lightgray;
+    text-align: center;
+    font-size: 24px;
+    background-color: white;
+}
+
+.xizmat-logo>div>p {
+    font-size: 16px;
+}
+
+.bottom-logo {
+    position: relative;
+    left: 250px;
+}
+
+.buyurtma{
+   display: flex;
+    justify-content: center;
+}
+
+.buyurtma>button {
+    border-radius: 5px;
+    padding: 16px 16px;
+    background-color: #00BAFC;
+    border: none;
+    font-weight: 600;
+    color: white;
+}
+
+.buyurtma>button:hover {
+    background-color: #009fd9;
+    cursor: pointer;
+}
+
+.work {
+    height: 1770px;
+}
+
+.work>div>img {
+    width: 400px;
+}
+
+.work_section {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+
+.work_section_text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 650px;
+    font-size: 20px;
+}
+
+.work_section2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+    flex-direction: row-reverse;
+}
+
+.work_section2_text {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 350px;
+    font-size: 20px;
+    
+}
+
+.zakaz {
+    position: relative;
+    top: 800px;
+    background-color: #00BAFC;
+    height: 660px;
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
+.zakazform {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    position: absolute;
+    left: 690px;
+    border-radius: 10px;
+    background-color: white;
+    width: 20%;
+    bottom: 50px;
+}
+
+input{
+    width: 95%;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(232, 232, 232);
+}
+
+select {
+    width: 95%;
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(232, 232, 232);
+    appearance: none;
+    background-image: url('./public/triangular-black-arrow-pointing-down.svg');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
+}
+
+.zakazform>a>button {
+    position: relative;
+    border-radius: 5px;
+    background-color: #00BAFC;
+    border: none;
+    font-weight: 600;
+    color: white;
+    width: 160px;
+    height: 40px;
+}
+
+.zakazform>a>button:hover {
+    background-color: #009fd9;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    position: relative;
+    top: 800px;
+    height: 340px;
+    background-color: #191919;
+    color: white;
+}
+
+.footer_item1 {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    width: 20%;
+    height: 200px;
+}
+
+.footer_item2 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 650px;
+    top: 100px;
+    font-size: 12px;
+}
+
+.footer_item2>button {
+    position: relative;
+    right: 30px;
+    border: none;
+    background-color: #191919;
+    color: white;
+}
+
+.footer_item2>button:hover {
+    cursor: pointer;
+}
+
+.social {
+    position: absolute;
+    top: 100px;
+    left: 1000px;
+}
+
+.media {
+    display: flex;
+    width: 1%;
+    justify-content: space-around;
+    gap: 16px;
+}
